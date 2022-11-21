@@ -1,0 +1,53 @@
+@font-face {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Brandon';
+    font-display: swap;
+    src: 
+        local('Brandon'),
+        url('brandon-grot-light.woff2') format('woff2'),
+        url('brandon-grot-light.woff') format('woff');
+  }
+
+  @font-face {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Helvetica';
+    font-display: swap;
+    src: 
+        local('Helvetica'),
+        url('helvetica.woff2') format('woff2'),
+        url('helvetica.woff') format('woff');
+  }
+
+  @font-face {
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Helvetica';
+    font-display: swap;
+    src: 
+        local('Helvetica'),
+        url('helvetica-bold.woff2') format('woff2'),
+        url('helvetica-bold.woff') format('woff');
+  }
+
+  @font-face {
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Droidserif';
+    font-display: swap;
+    src: 
+        local('Droidserif'),
+        url('droidserif-bold.woff') format('woff');
+  }
+
+  @font-face {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Droid';
+    font-display: swap;
+    src: 
+        local('Droid'),
+        url('droidserif-regular.woff2') format('woff2'),
+        url('droidserif-regular.woff') format('woff');
+  }

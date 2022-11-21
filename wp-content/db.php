@@ -1,0 +1,1 @@
+/home/t/tludan/ludanik.com/public_html/wp-content/plugins/query-monitor/wp-content/db.php
