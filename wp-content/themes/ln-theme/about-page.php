@@ -5,7 +5,7 @@ Template name: About Page
 ?>
 <?php get_header(); ?>
       <!-- Content -->
-    <section>
+    <section class="section__post-content">
         <article class="post-content about-page">
             <div class="about-page__section">
                 <div class="about-page__section__photo">

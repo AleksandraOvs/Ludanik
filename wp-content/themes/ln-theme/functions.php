@@ -38,48 +38,12 @@ register_nav_menus( array(
     'footer'    => 'footer-menu',
 ));
 
-// function as_theme_setup() {
-// 	load_theme_textdomain( 'as-theme', get_template_directory() . '/languages' );
-// 	add_theme_support( 'automatic-feed-links' );
-// 	add_theme_support( 'title-tag' );
-// 	add_theme_support( 'post-thumbnails' );
-// 	register_nav_menus(
-// 		array(
-// 			'menu-1' => esc_html__( 'Primary', 'as-theme' ),
-// 		)
-// 	);
-// 	add_theme_support(
-// 		'html5',
-// 		array(
-// 			'search-form',
-// 			'comment-form',
-// 			'comment-list',
-// 			'gallery',
-// 			'caption',
-// 			'style',
-// 			'script',
-// 		)
-// 	);
-// 	add_theme_support(
-// 		'custom-background',
-// 		apply_filters(
-// 			'as_theme_custom_background_args',
-// 			array(
-// 				'default-color' => 'ffffff',
-// 				'default-image' => '',
-// 			)
-// 		)
-// 	);
-// 	add_theme_support( 'customize-selective-refresh-widgets' );
+add_action( 'login_head', 'my_custom_login_logo' );
+function my_custom_login_logo(){
 
-// 	add_theme_support(
-// 		'custom-logo',
-// 		array(
-// 			'height'      => 270,
-// 			'width'       => 170,
-// 			'flex-width'  => true,
-// 			'flex-height' => true,
-// 		)
-// 	);
-// }
-// add_action( 'after_setup_theme', 'as_theme_setup' );
+	echo '
+	<style type="text/css">
+	h1 a {  background-image:url('.get_bloginfo('template_directory').'/images/svg/lt.svg) !important;  }
+	</style>
+	';
+}

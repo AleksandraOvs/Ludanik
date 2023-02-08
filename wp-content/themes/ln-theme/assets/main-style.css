@@ -1,3 +1,10 @@
+body.login {
+    background:#999 !important;
+    background-image: url('../images/the_wall.webp') !important;
+    
+}
+
+
 html {
     margin-top: 0px !important;
 }

@@ -1,6 +1,6 @@
 <?php get_header(); ?>
       <!-- Content -->
-      <section class="section">
+      <section class="section__post-content">
         <article class="post-content">
           <?php 
           if (is_page('about-page')) :
